@@ -1,0 +1,91 @@
+.jumbotron{
+    background: url(./access/side-view-cook-making-delicious-pasta_23-2150690631.avif);
+    background-position: center; 
+    background-size:cover; 
+    height: 80vh; 
+    position: relative;
+}
+
+.container{
+    text-align: center;
+    padding-top: 100px;
+}
+
+.form-control .me-2{
+    max-width: 500px;
+    height: 40px;
+}
+
+.btn{
+    width: 200px;
+}
+
+.carousel-indicators{
+    list-style: nones;
+}
+
+.base{
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (min-width:320px) {
+    #name{
+        border-radius: 5px;
+        width: 250px;
+        height: 30px;
+        margin-top:20px ;
+        background: transparent;
+        border-color: aliceblue;
+        color: whitesmoke;
+    }   
+}
+
+
+#massage{
+    border-radius: 5px;
+    margin-top: 30px;
+    background: transparent;
+    border-color: aliceblue;
+    color: whitesmoke;
+}
+
+.copyright{
+    position:relative;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    max-width: 100%;
+    background-color: #222020;
+    color: white;
+    text-align: center;
+}
+
+.mu{
+    color: #90CA6D;
+}
+
+.fin{
+    color: #FC835D;
+}
+
+footer{
+    color:#FFFFFF;
+}
+
+ul .link a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+ul .link a:hover{
+    color:#fc834b;
+}
+
+#mail{
+    width: 400px;
+    border-radius: 10px;
+    background: transparent;
+    color: #fc834b;
+}
+
